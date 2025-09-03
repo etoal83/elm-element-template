@@ -4,6 +4,7 @@ import elmPlugin from "vite-plugin-elm"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/elm-element-template/",
   plugins: [
     deno(),
     elmPlugin(),
